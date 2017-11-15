@@ -1,0 +1,128 @@
+hmtl {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: Clavo, serif;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-family: Clavo, serif;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+img {
+  display: block;
+}
+
+body {
+  max-width: 100%;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  background-color: #1B1D2F;
+  height: 5vh;
+}
+
+.abovefold {
+  background-image: url("jay-hughes-family.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 95vh;
+  /*max-width: 100%;*/
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.behindlogo {
+  background-color: rgba(255, 255, 255, .65);
+  position: absolute;
+  bottom: 0;
+}
+
+.behindlogo > img {
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+
+.sit {
+  align-items: center;
+}
+
+.imagine {
+  background-color: #1B1D2F;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+
+.imagine span {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: Atrament, sans-serif;
+  font-style: normal;
+}
+
+
+.intro {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro > hr {
+  width: 25%;
+  margin: 0 1rem;
+  color: #D0021B;
+  border: 1px solid #D0021B;
+}
+
+.intro > h3 {
+  width: auto;
+  font-style: italic;
+}
+
+.bio {
+  text-align: center;
+  padding: 1rem 2rem;
+}
