@@ -7,18 +7,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: Clavo, serif;
   font-style: italic;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 2em;
   font-family: Clavo, serif;
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 1.5em;
+  font-family: Clavo, serif;
 }
 
 h5 {
@@ -53,17 +54,13 @@ div {
   margin: 0 auto;
 }
 
-.top {
-  background-color: #1B1D2F;
-  height: 5vh;
-}
 
 .abovefold {
   background-image: url("jay-hughes-family.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 100vh;
   /*max-width: 100%;*/
   text-align: center;
   display: flex;
@@ -95,6 +92,7 @@ div {
   padding: 1rem;
   text-align: center;
   color: #fff;
+  font-size: .95rem;
 }
 
 
@@ -103,31 +101,81 @@ div {
   text-transform: uppercase;
   font-family: Atrament, sans-serif;
   font-style: normal;
+  vertical-align: middle;
+}
+
+.imagine span.rest {
 }
 
 
-.intro {
+.headline {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  font-size: 1.15rem;
 }
 
-.intro > hr {
+.headline > hr {
   width: 25%;
   margin: 0 1rem;
   color: #D0021B;
   border: 1px solid #D0021B;
 }
 
-.intro > h3 {
+.headline > h3 {
   width: auto;
   font-style: italic;
+  color: #293171;
+}
+
+.headline.connect {
+  margin-top: 1rem;
+}
+
+.headline.connect > h4 {
+  width: auto;
+  font-style: italic;
+  color: #293171;
+  margin: 0;
 }
 
 .bio {
   text-align: center;
   padding: 1rem 2rem;
+}
+
+.support {
+  background-color: #1B1D2F;
+  background-image: url("star-bg.svg");
+  background-size: cover;
+  height: 140px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-btn {
+  background: #ED312D;
+  background: radial-gradient(#ef5854, #C1272E);
+  padding: .75rem 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Atrament, sans-serif;
+  font-size: 32px;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 0 0 0 2px #C1272E;
+}
+
+
+#path-1 {
+  width: 100%;
+}
+
+.join {
+  text-align: center;
 }
 
 footer.footer {
