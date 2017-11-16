@@ -27,6 +27,7 @@ h5 {
 
 p {
   font-size: 1em;
+  font-family: Clavo, sans-serif;
 }
 
 img {
@@ -79,6 +80,7 @@ div {
 .behindlogo > img {
   height: auto;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 
@@ -108,6 +110,7 @@ div {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  text-align: center;
 }
 
 .intro > hr {
@@ -125,4 +128,22 @@ div {
 .bio {
   text-align: center;
   padding: 1rem 2rem;
+}
+
+footer.footer {
+  font-size: .75rem;
+  margin-top: .75rem;
+  background-color: #1B1D2F;
+  color: #fff;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+footer.footer > p {
+  font-family: arial, sans-serif;
+
 }
